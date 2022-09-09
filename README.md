@@ -9,13 +9,13 @@ The script is used to get [BIT](https://www.bit.edu.cn/) [network connection](ht
 1. Download Chrome from [here](https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb).
 2. Install Chrome with
    + `apt-get update`
-   + `sudo dpkg -i google-chrome-stable_current_amd64.deb`
-   + `sudo apt-get install -f`
+   + `dpkg -i google-chrome-stable_current_amd64.deb`
+   + `apt-get install -f`
 3. Install WebDriver
    + Check Chrome version with `google-chrome --version`
    + Download corresponding WebDriver for Chrome from [here](https://chromedriver.chromium.org/downloads)
    + `unzip chromedriver_linux64.zip`
-   + `sudo mv chromedriver /usr/bin/`
+   + `mv chromedriver /usr/bin/`
 4. Install Selenium with `pip install selenium`.
 5. Install requirements `pip install requests`.
 
