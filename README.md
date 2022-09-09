@@ -2,7 +2,7 @@ The script is used to get [BIT](https://www.bit.edu.cn/) [network connection](ht
 
 
 
-## Installation
+## 1. Installation
 
 ### Ubuntu OS
 
@@ -30,7 +30,7 @@ The script is used to get [BIT](https://www.bit.edu.cn/) [network connection](ht
 
 
 
-## Usage
+## 2. Usage
 
 ### Login
 Run `python3 client2.py -u stuid -p password -a login`, and check login status information.
@@ -40,7 +40,7 @@ Run `python3 client2.py -u stuid -p password -a logout`.
 
 
 
-## Test
+## 3. Test
 
 ![Ubuntu18.04+Python3.8.3](/ubuntu_test.jpg)
 ![Windows10+Python3.6.5](/windows_test.jpg)
